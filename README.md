@@ -9,7 +9,8 @@ There's a Subdomain branch that uses a bit different config file required for wh
 Build your browser router with a basename if you're deploying on a subdomain. 
 Below example works for all kinds of routes, default & subdomains.
 
-```const router = createBrowserRouter(
+```
+const router = createBrowserRouter(
     createRoutesFromElements(
         <>
             <Route path='/' element={<RootLayout />} errorElement={<ErrorPage />} loader={RootLoader}>
