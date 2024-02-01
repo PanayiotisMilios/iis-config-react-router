@@ -1,8 +1,7 @@
 # iis-config-react-router
-The configuration file required for IIS to use a react application using react-router and being able to navigate to all your routes.
+The configuration file required for IIS to make your react application responsive to all routes.
 
 There's a Subdomain branch that uses a bit different config file required for when deploying on subdomains  (i.e your-app-url.com/subdomain)
-
 
 **Deployment Tips for React Application using react-router with Vite on IIS.**
 
