@@ -17,7 +17,8 @@ Below example works for all kinds of routes
             </Route>
         </>
     ), { basename: `${import.meta.env.BASE_URL}`}
-)`
+)
+```
 
 Build your project using `npx vite build`. 
 If you deploy in a subdomain, use `npx vite build --base=/subdomain`
