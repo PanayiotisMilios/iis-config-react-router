@@ -3,7 +3,7 @@ The configuration file required for IIS to use a react application using react-r
 
 There's a Subdomain branch that uses a bit different config file required for when deploying on subdomains  (i.e your-app-url.com/subdomain)
 
-Some Extra Deployment Tips for React Application using react-router with Vite on IIS.
+**Deployment Tips for React Application using react-router with Vite on IIS.**
 
 Build your browser router with a basename. 
 Below example works for all kinds of routes
