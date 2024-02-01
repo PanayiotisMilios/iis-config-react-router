@@ -6,8 +6,8 @@ There's a Subdomain branch that uses a bit different config file required for wh
 
 **Deployment Tips for React Application using react-router with Vite on IIS.**
 
-Build your browser router with a basename. 
-Below example works for all kinds of routes
+Build your browser router with a basename if you're deploying on a subdomain. 
+Below example works for all kinds of routes, default & subdomains.
 
 ```const router = createBrowserRouter(
     createRoutesFromElements(
