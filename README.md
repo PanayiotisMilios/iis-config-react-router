@@ -13,7 +13,7 @@ Below example works for all kinds of routes
     createRoutesFromElements(
         <>
             <Route path='/' element={<RootLayout />} errorElement={<ErrorPage />} loader={RootLoader}>
-               ...
+                //Add your routes here
             </Route>
         </>
     ), { basename: `${import.meta.env.BASE_URL}`}
