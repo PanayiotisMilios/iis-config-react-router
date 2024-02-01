@@ -8,7 +8,7 @@ Some Extra Deployment Tips for React Application using react-router with Vite on
 Build your browser router with a basename. 
 Below example works for all kinds of routes
 
-`const router = createBrowserRouter(
+```const router = createBrowserRouter(
     createRoutesFromElements(
         <>
             <Route path='/' element={<RootLayout />} errorElement={<ErrorPage />} loader={RootLoader}>
@@ -16,7 +16,7 @@ Below example works for all kinds of routes
             </Route>
         </>
     ), { basename: `${import.meta.env.BASE_URL}`}
-)`
+)```
 
 Build your project using `npx vite build`. 
 If you deploy in a subdomain, use `npx vite build --base=/subdomain`
