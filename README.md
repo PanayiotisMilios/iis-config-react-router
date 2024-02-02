@@ -21,7 +21,7 @@ const router = createBrowserRouter(
 ```
 
 Build your project using `npx vite build`. 
-If you deploy in a subdomain, use `npx vite build --base=/subdomain`
+If you deploy in a subdomain, use `npx vite build --base=/yoursubdomainname`
 
 Add the web.config file inside your IIS directory (Next to index.html). 
 
