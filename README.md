@@ -6,7 +6,7 @@ There's a Subdirectory branch that uses a bit different config file required for
 **Deployment Tips for React Application using react-router with Vite on IIS.**
 
 Build your browser router with a basename if you're deploying on a subdirectory. 
-Below example works for all kinds of routes, default & subdomains.
+Below example works for all kinds of routes, default & subdirectories.
 
 ```
 const router = createBrowserRouter(
